@@ -1,0 +1,7 @@
+{
+  "name": "AdminApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
