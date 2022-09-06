@@ -1,0 +1,31 @@
+.upload-picture {
+    border: var(--ion-color-dark);
+    @apply shadow-none border border-solid;
+  
+    &__header {
+      @apply text-base;
+      color: var(--ion-color-dark);
+    }
+  
+    &__content {
+      border: var(--ion-color-dark);
+      @apply border border-dashed;
+      @apply mx-4 mb-4 p-0 rounded-sm;
+  
+      &-box {
+        @apply flex flex-col items-center p-4;
+  
+        ion-icon {
+          @apply text-3xl;
+        }
+  
+        ion-label {
+          @apply text-sm text-medium;
+        }
+  
+        img {
+          @apply rounded-sm;
+        }
+      }
+    }
+  }

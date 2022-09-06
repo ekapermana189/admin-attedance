@@ -1,0 +1,120 @@
+<ion-header class="ion-no-border ">
+  <ion-buttons class="flex flex-row mt-5">
+    <ion-icon name="person-circle-outline"
+      class="ml-5 text-2xl text-black mr-2 hover:bg-orange-400 active:bg-orange-600 focus:outline-none focus:ring focus:ring-orange-500">
+    </ion-icon>
+    <ion-title class="-ml-5 text-lg">Hi, Admin</ion-title>
+    <ion-icon name="settings-outline"
+      class="text-2xl text-black mr-4 hover:bg-orange-400 active:bg-orange-600 focus:outline-none focus:ring focus:ring-orange-500">
+    </ion-icon>
+  </ion-buttons>
+
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card class="bg-warning rounded-lg mt-5">
+    <p class="text-black text-lg font-semibold ml-3 mt-2 tracking-tight">Lengkapi data Pengguna</p>
+    <p class="text-white text-xs w-80 ml-3 tracking-tight">lengkapi data pengguna aplikasi absensi</p>
+    <ion-button color="light" class="ml-2 my-2" size="small">Klik disini</ion-button>
+    <div class="absolute -right-5 top-0 w-36">
+      <img src="assets/img/hand.svg" alt="">
+    </div>
+  </ion-card>
+
+  <!-- apps menu -->
+  <div class="container grid grid-cols-3 my-2 md:grid-cols-4  mt-5 ">
+
+
+    <div>
+      <ion-card class="p-2 m-3 rounded-xl ion-activatable ripple-parent ">
+        <ion-card-content class="p-0">
+          <div class="flex flex-col items-center justify-center">
+            <img src="assets/img/dashboard/student.svg" alt="" class="p-1">
+          </div>
+        </ion-card-content>
+        <ion-ripple-effect></ion-ripple-effect>
+      </ion-card>
+      <div class="flex flex-col items-center justify-center">
+        <ion-label class="p-1 text-sm text-center text-black leading-4 font-medium">Data Murid
+        </ion-label>
+      </div>
+    </div>
+
+    <div>
+      <ion-card class="p-2 m-3 rounded-xl ion-activatable ripple-parent ">
+        <ion-card-content class="p-0">
+          <div class="flex flex-col items-center justify-center">
+            <img src="assets/img/dashboard/wali.svg" alt="" class="p-1">
+          </div>
+        </ion-card-content>
+        <ion-ripple-effect></ion-ripple-effect>
+      </ion-card>
+      <div class="flex flex-col items-center justify-center">
+        <ion-label class=" text-sm text-center text-black leading-4 w-20 font-medium">Data Wali Murid
+        </ion-label>
+      </div>
+    </div>
+
+    <div>
+      <ion-card class="p-2 m-3 rounded-xl ion-activatable ripple-parent">
+        <ion-card-content class="p-0">
+          <div class="flex flex-col items-center justify-center">
+            <img src="assets/img/dashboard/teacher.svg" alt="" class="p-1">
+          </div>
+        </ion-card-content>
+        <ion-ripple-effect></ion-ripple-effect>
+      </ion-card>
+      <div class="flex flex-col items-center justify-center">
+        <ion-label class="p-1 text-sm text-center text-black leading-4 font-medium">Data Guru
+        </ion-label>
+      </div>
+    </div>
+
+    <div>
+      <ion-card class="p-2 m-3 rounded-xl ion-activatable ripple-parent ">
+        <ion-card-content class="p-0">
+          <div class="flex flex-col items-center justify-center">
+            <img src="assets/img/dashboard/classroom.svg" alt="" class="p-1">
+          </div>
+        </ion-card-content>
+        <ion-ripple-effect></ion-ripple-effect>
+      </ion-card>
+      <div class="flex flex-col items-center justify-center">
+        <ion-label class="p-1 text-sm text-center text-black leading-4 font-medium">Data Kelas
+        </ion-label>
+      </div>
+    </div>
+
+    <div>
+      <ion-card class="p-2 m-3 rounded-xl ion-activatable ripple-parent">
+        <ion-card-content class="p-0">
+          <div class="flex flex-col items-center justify-center">
+            <img src="assets/img/dashboard/periode.svg" alt="" class="p-1">
+          </div>
+        </ion-card-content>
+        <ion-ripple-effect></ion-ripple-effect>
+      </ion-card>
+      <div class="flex flex-col items-center justify-center">
+        <ion-label class="p-1 text-sm text-center text-black leading-4 font-medium">Data Periode
+        </ion-label>
+      </div>
+    </div>
+
+  </div>
+
+</ion-content>
+
+<!-- <ion-card *ngFor="let classroom of classrooms">
+  <ion-card-header>
+    <ion-card-subtitle>{{classroom.name_mla}}</ion-card-subtitle>
+    <ion-card-title>
+      {{classroom.shift_mcad}}
+    </ion-card-title>
+    <ion-card-title>{{classroom.name_period}}</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content class="text-xl font-medium">
+    <h1>{{classroom.from_mcad}}</h1>
+    <h3>{{classroom.upto_mcad}}</h3>
+  </ion-card-content>
+</ion-card> -->
